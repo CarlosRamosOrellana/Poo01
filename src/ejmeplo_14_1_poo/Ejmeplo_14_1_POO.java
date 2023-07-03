@@ -4,6 +4,8 @@
  */
 package ejmeplo_14_1_poo;
 
+import java.util.Scanner;
+
 /**
  *
  * @author USER 17
@@ -17,6 +19,22 @@ public class Ejmeplo_14_1_POO {
         // TODO code application logic here
         //PRUEBA DE GITHUB
         //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-    }
+         // TODO code application logic here
+        int a, b, suma;
+        Scanner leer = new Scanner(System.in);
+        System.out.println("SUMA DE DOS NUMEROS ENTEROS");
+        System.out.print("Ingrese primer número: ");
+        a = leer.nextInt();
+        System.out.print("Ingrese primer número: ");
+        b = leer.nextInt();
+        suma = sumar(a,b);
+        System.out.println("La suma de los números es: " + suma);
+    }  // Fin del método main
     
-}
+    static int sumar(int a, int b){
+        return a + b;
+    } // Fin del método sumar
+} // Fin de la clase del programa principal
+    
+    
+
